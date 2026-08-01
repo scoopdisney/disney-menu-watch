@@ -35,6 +35,7 @@ const VENUES = [
 ];
 
 const TODAY = new Date().toISOString().slice(0, 10);
+const NOW = new Date().toISOString().slice(0, 16).replace('T', ' '); // e.g. "2026-08-01 13:00", so same-day intraday runs stay distinguishable
 const HEADER = ['Pulled', 'Restaurant', 'Park', 'Item', 'Category', 'MealPeriods', 'Description', 'Price', 'Source'];
 const LOG_HEADER = ['Detected', 'Restaurant', 'Park', 'Item', 'Category', 'Old Price', 'New Price', 'Change', 'Percent', 'Source'];
 
@@ -162,7 +163,8 @@ for (const [slug, park, parkSlug] of VENUES) {
 const MIN_ROWS = Number(process.env.MIN_ROWS || 800);
 if (failures.length > 5 || current.length < MIN_ROWS) {
   await fs.mkdir('.', { recursive: true });
-  await fs.writeFile('summary.md', `## Menu scan ${TODAY} — ABORTED\n\nOnly ${current.length} rows and ${failures.length} venue failures. Snapshot left untouched.\n\n${failures.map((f) => '- ' + f).join('\n')}\n`);
+  await fs.writeFile('summary.md', `## Menu scan ${NOW} UTC — ABORTED\n\nOnly ${current.length} rows and ${failures.length} venue failures. Snapshot left untouched.\n\n${failures.map((f) => '- ' + f).join('\n')}\n`);
+  await fs.writeFile('POST_COMMENT', '1'); // an abort is always worth flagging, even on a quiet-comment schedule
   console.log('Aborted: incomplete pull');
   process.exit(0);
 }
@@ -192,7 +194,7 @@ for (const [k, bRows] of bMap) {
     const o = Number(bRows[0].Price), n = Number(cRows[0].Price);
     if (o !== n) {
       changes.push({
-        Detected: TODAY, Restaurant: cRows[0].Restaurant, Park: cRows[0].Park, Item: cRows[0].Item,
+        Detected: NOW, Restaurant: cRows[0].Restaurant, Park: cRows[0].Park, Item: cRows[0].Item,
         Category: cRows[0].Category, 'Old Price': o.toFixed(2), 'New Price': n.toFixed(2),
         Change: (n - o).toFixed(2), Percent: (((n - o) / o) * 100).toFixed(1) + '%', Source: cRows[0].Source,
       });
@@ -232,7 +234,7 @@ if (changes.length) {
 const money = (c) => `- **${c.Restaurant}** — ${c.Item}: $${c['Old Price']} → $${c['New Price']} (${c.Change > 0 ? '+' : ''}${c.Change}, ${c.Percent})`;
 const lines = [];
 
-lines.push(`## Menu scan ${TODAY}`);
+lines.push(`## Menu scan ${NOW} UTC`);
 lines.push('');
 lines.push(`${current.length} rows across ${VENUES.length} venues${failures.length ? `, ${failures.length} venue failure(s)` : ', 0 failures'}.`);
 lines.push('');
@@ -284,5 +286,11 @@ if (failures.length) {
 lines.push('---');
 lines.push('_Renames are invisible to name matching, so an item Disney renamed alongside a price change will not appear above._');
 
+// Only worth an issue comment when there's something to say: a genuine price
+// move, an add/remove, a failure, or (once, historically) the first-ever run.
+const hasNews = !previous.length || changes.length > 0 || added.length > 0 || removed.length > 0 || failures.length > 0;
+if (hasNews) await fs.writeFile('POST_COMMENT', '1');
+
 await fs.writeFile('summary.md', lines.join('\n') + '\n');
 console.log(lines.join('\n'));
+console.log(hasNews ? 'NEWS: comment will post' : 'QUIET: no comment this run');

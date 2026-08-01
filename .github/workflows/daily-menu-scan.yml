@@ -2,9 +2,10 @@ name: Daily menu scan
 
 on:
   schedule:
-    # 13:00 UTC = 6am Pacific daylight / 5am Pacific standard.
+    # Every 3 hours, anchored on 13:00 UTC (6am Pacific daylight / 5am standard),
+    # the original daily slot. So: 6a/9a/12p/3p/6p/9p/12a/3a Pacific daylight time.
     # GitHub queues scheduled runs and can delay them at peak times.
-    - cron: '0 13 * * *'
+    - cron: '0 1,4,7,10,13,16,19,22 * * *'
   workflow_dispatch:
 
 permissions:
@@ -41,17 +42,21 @@ jobs:
             git push
           fi
 
-      - name: Post daily summary
+      - name: Post summary if there's news
         env:
           GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
+          if [ ! -f POST_COMMENT ]; then
+            echo "No price changes, adds, removes, or failures this run — skipping comment."
+            exit 0
+          fi
           ISSUE=$(gh issue list --label daily-log --state open --limit 1 --json number --jq '.[0].number // empty')
           if [ -z "$ISSUE" ]; then
-            gh label create daily-log --color 0e8a16 --description "Daily menu scan summaries" || true
+            gh label create daily-log --color 0e8a16 --description "Menu price alerts" || true
             URL=$(gh issue create \
-              --title "Disneyland menu price watch - daily log" \
+              --title "Disneyland menu price watch - alert log" \
               --label daily-log \
-              --body "Every daily scan posts its summary here as a comment. Close this issue and a new one is opened on the next run.")
+              --body "Comments post only when a scan finds a price change, a new/removed item, or a venue failure. Quiet runs stay silent.")
             ISSUE=$(basename "$URL")
           fi
           gh issue comment "$ISSUE" --body-file summary.md
