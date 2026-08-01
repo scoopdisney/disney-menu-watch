@@ -234,6 +234,9 @@ if (changes.length) {
 const money = (c) => `- **${c.Restaurant}** — ${c.Item}: $${c['Old Price']} → $${c['New Price']} (${c.Change > 0 ? '+' : ''}${c.Change}, ${c.Percent})`;
 const lines = [];
 
+const hour = new Date().getUTCHours();
+const isDailySlot = hour === 13; // 13:00 UTC = 6am Pacific daylight
+
 lines.push(`## Menu scan ${NOW} UTC`);
 lines.push('');
 lines.push(`${current.length} rows across ${VENUES.length} venues${failures.length ? `, ${failures.length} venue failure(s)` : ', 0 failures'}.`);
@@ -242,7 +245,11 @@ lines.push('');
 if (!previous.length) {
   lines.push('First run — baseline established. Nothing to diff against yet.');
 } else if (!changes.length && !added.length && !removed.length) {
-  lines.push('**No changes.** No price moves, no items added or removed.');
+  if (isDailySlot) {
+    lines.push('**Daily check complete — no changes.**');
+  } else {
+    lines.push('**No changes.** No price moves, no items added or removed.');
+  }
 } else {
   if (changes.length) {
     const up = changes.filter((c) => +c.Change > 0).length;
@@ -286,11 +293,12 @@ if (failures.length) {
 lines.push('---');
 lines.push('_Renames are invisible to name matching, so an item Disney renamed alongside a price change will not appear above._');
 
-// Only worth an issue comment when there's something to say: a genuine price
-// move, an add/remove, a failure, or (once, historically) the first-ever run.
+// Always post on the 13:00 UTC daily slot so you get a reliable 6am Pacific email.
+// Other runs only post when there is real news (price change, add, remove, or failure).
 const hasNews = !previous.length || changes.length > 0 || added.length > 0 || removed.length > 0 || failures.length > 0;
-if (hasNews) await fs.writeFile('POST_COMMENT', '1');
+const shouldPost = hasNews || isDailySlot;
+if (shouldPost) await fs.writeFile('POST_COMMENT', '1');
 
 await fs.writeFile('summary.md', lines.join('\n') + '\n');
 console.log(lines.join('\n'));
-console.log(hasNews ? 'NEWS: comment will post' : 'QUIET: no comment this run');
+console.log(shouldPost ? (hasNews ? 'NEWS: comment will post' : 'DAILY: comment will post') : 'QUIET: no comment this run');
