@@ -1,0 +1,57 @@
+name: Daily menu scan
+
+on:
+  schedule:
+    # 13:00 UTC = 6am Pacific daylight / 5am Pacific standard.
+    # GitHub queues scheduled runs and can delay them at peak times.
+    - cron: '0 13 * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+  issues: write
+
+concurrency:
+  group: menu-scan
+  cancel-in-progress: false
+
+jobs:
+  scan:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+
+      - name: Sweep menus and diff
+        run: node scan.mjs
+
+      - name: Commit snapshot
+        run: |
+          git config user.name "menu-watch"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data
+          if git diff --staged --quiet; then
+            echo "Nothing changed in data/"
+          else
+            git commit -m "Menu snapshot $(date -u +%Y-%m-%d)"
+            git pull --rebase --autostash
+            git push
+          fi
+
+      - name: Post daily summary
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          ISSUE=$(gh issue list --label daily-log --state open --limit 1 --json number --jq '.[0].number // empty')
+          if [ -z "$ISSUE" ]; then
+            gh label create daily-log --color 0e8a16 --description "Daily menu scan summaries" || true
+            URL=$(gh issue create \
+              --title "Disneyland menu price watch - daily log" \
+              --label daily-log \
+              --body "Every daily scan posts its summary here as a comment. Close this issue and a new one is opened on the next run.")
+            ISSUE=$(basename "$URL")
+          fi
+          gh issue comment "$ISSUE" --body-file summary.md
