@@ -235,7 +235,7 @@ const money = (c) => `- **${c.Restaurant}** — ${c.Item}: $${c['Old Price']} �
 const lines = [];
 
 const hour = new Date().getUTCHours();
-const isDailySlot = hour === 13; // 13:00 UTC = 6am Pacific daylight
+const isDailySlot = true; // TEMP FORCE for email test — will be reverted after this run
 
 lines.push(`## Menu scan ${NOW} UTC`);
 lines.push('');
