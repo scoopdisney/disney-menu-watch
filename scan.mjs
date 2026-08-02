@@ -164,7 +164,7 @@ const MIN_ROWS = Number(process.env.MIN_ROWS || 800);
 if (failures.length > 5 || current.length < MIN_ROWS) {
   await fs.mkdir('.', { recursive: true });
   await fs.writeFile('summary.md', `## Menu scan ${NOW} UTC — ABORTED\n\nOnly ${current.length} rows and ${failures.length} venue failures. Snapshot left untouched.\n\n${failures.map((f) => '- ' + f).join('\n')}\n`);
-  await fs.writeFile('POST_COMMENT', '1'); // an abort is always worth flagging, even on a quiet-comment schedule
+  await fs.writeFile('POST_COMMENT', '1');
   console.log('Aborted: incomplete pull');
   process.exit(0);
 }
@@ -200,9 +200,6 @@ for (const [k, bRows] of bMap) {
       });
     }
   } else {
-    // Same name on both the adult and kids menu. Match to the nearest price and
-    // flag it. Never emit this as a change: that is what produced the bogus
-    // "Chicken Tenders -33.4%".
     for (const b of bRows) {
       const near = cRows.reduce((a, c) => (Math.abs(+c.Price - +b.Price) < Math.abs(+a.Price - +b.Price) ? c : a));
       if (Number(near.Price) !== Number(b.Price)) {
@@ -213,7 +210,6 @@ for (const [k, bRows] of bMap) {
 }
 for (const [k, cRows] of cMap) if (!bMap.has(k)) added.push(...cRows);
 
-// count deltas per venue
 const prevCounts = new Map();
 for (const r of previous) prevCounts.set(r.Restaurant, (prevCounts.get(r.Restaurant) || 0) + 1);
 const countDeltas = [];
@@ -234,8 +230,7 @@ if (changes.length) {
 const money = (c) => `- **${c.Restaurant}** — ${c.Item}: $${c['Old Price']} → $${c['New Price']} (${c.Change > 0 ? '+' : ''}${c.Change}, ${c.Percent})`;
 const lines = [];
 
-const hour = new Date().getUTCHours();
-const isDailySlot = hour === 13; // 13:00 UTC = 6am Pacific daylight
+const isDailySlot = true; // TEMP FORCE for email test
 
 lines.push(`## Menu scan ${NOW} UTC`);
 lines.push('');
@@ -245,11 +240,7 @@ lines.push('');
 if (!previous.length) {
   lines.push('First run — baseline established. Nothing to diff against yet.');
 } else if (!changes.length && !added.length && !removed.length) {
-  if (isDailySlot) {
-    lines.push('**Daily check complete — no changes.**');
-  } else {
-    lines.push('**No changes.** No price moves, no items added or removed.');
-  }
+  lines.push('**Daily check complete — no changes.** (forced test)');
 } else {
   if (changes.length) {
     const up = changes.filter((c) => +c.Change > 0).length;
@@ -293,8 +284,6 @@ if (failures.length) {
 lines.push('---');
 lines.push('_Renames are invisible to name matching, so an item Disney renamed alongside a price change will not appear above._');
 
-// Always post on the 13:00 UTC daily slot so you get a reliable 6am Pacific email.
-// Other runs only post when there is real news (price change, add, remove, or failure).
 const hasNews = !previous.length || changes.length > 0 || added.length > 0 || removed.length > 0 || failures.length > 0;
 const shouldPost = hasNews || isDailySlot;
 if (shouldPost) await fs.writeFile('POST_COMMENT', '1');
