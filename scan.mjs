@@ -35,13 +35,10 @@ const VENUES = [
 ];
 
 const TODAY = new Date().toISOString().slice(0, 10);
-const NOW = new Date().toISOString().slice(0, 16).replace('T', ' '); // e.g. "2026-08-01 13:00", so same-day intraday runs stay distinguishable
+const NOW = new Date().toISOString().slice(0, 16).replace('T', ' ');
 const HEADER = ['Pulled', 'Restaurant', 'Park', 'Item', 'Category', 'MealPeriods', 'Description', 'Price', 'Source'];
 const LOG_HEADER = ['Detected', 'Restaurant', 'Park', 'Item', 'Category', 'Old Price', 'New Price', 'Change', 'Percent', 'Source'];
 
-// ---------------------------------------------------------------- normalizer
-// Order matters. Strip the symbols BEFORE NFKD: NFKD turns a trademark sign
-// into the letters "TM", which silently breaks every match on that item.
 function normItem(s) {
   return String(s)
     .replace(/[\u00AE\u2122\u00A9*]/g, '')
@@ -58,7 +55,6 @@ function normItem(s) {
 
 const keyOf = (r) => `${normItem(r.Restaurant)}\u0000${normItem(r.Item)}`;
 
-// ---------------------------------------------------------------- csv
 function csvCell(v) {
   const s = v === null || v === undefined ? '' : String(v);
   return /[",\n\r]/.test(s) ? '"' + s.replace(/"/g, '""') + '"' : s;
@@ -92,7 +88,6 @@ async function readIfExists(p) {
   try { return await fs.readFile(p, 'utf8'); } catch { return null; }
 }
 
-// ---------------------------------------------------------------- fetch
 async function getMenu(slug) {
   for (let attempt = 1; attempt <= 3; attempt++) {
     try {
@@ -117,12 +112,11 @@ function collectVenue(json, park, parkSlug, slug) {
   for (const mp of json?.mealPeriods || []) {
     const period = mp?.label || mp?.name || '';
     for (const group of mp?.groups || []) {
-      // Allergy Friendly groups are duplicate rows of the same items.
       if (String(group?.type || '').toLowerCase().includes('allergy friendly')) continue;
       const category = group?.name || '';
       for (const item of group?.items || []) {
         const prices = item?.prices || [];
-        if (!prices.length) continue; // prix-fixe course components, not a bug
+        if (!prices.length) continue;
         const p = prices.find((x) => typeof x?.withoutTax === 'number') || prices[0];
         if (typeof p?.withoutTax !== 'number') continue;
         const price = p.withoutTax.toFixed(2);
@@ -144,7 +138,6 @@ function collectVenue(json, park, parkSlug, slug) {
   return [...byKey.values()].map((r) => ({ ...r, MealPeriods: r.MealPeriods.join('; ') }));
 }
 
-// ---------------------------------------------------------------- run
 const current = [];
 const failures = [];
 const counts = new Map();
@@ -159,7 +152,6 @@ for (const [slug, park, parkSlug] of VENUES) {
   }
 }
 
-// Abort rather than corrupt the snapshot if the API is having a bad day.
 const MIN_ROWS = Number(process.env.MIN_ROWS || 800);
 if (failures.length > 5 || current.length < MIN_ROWS) {
   await fs.mkdir('.', { recursive: true });
@@ -226,13 +218,10 @@ if (changes.length) {
   await fs.writeFile('data/price-changes.csv', toCsv([...existing, ...changes], LOG_HEADER));
 }
 
-// ---------------------------------------------------------------- summary
 const money = (c) => `- **${c.Restaurant}** — ${c.Item}: $${c['Old Price']} → $${c['New Price']} (${c.Change > 0 ? '+' : ''}${c.Change}, ${c.Percent})`;
 const lines = [];
 
-const hour = new Date().getUTCHours();
-// Wider window (12–14 UTC) to tolerate GitHub schedule delays around the 13:00 slot
-const isDailySlot = hour >= 12 && hour <= 14;
+const isDailySlot = true; // TEMP FORCE for @mention test
 
 lines.push(`## Menu scan ${NOW} UTC`);
 lines.push('');
@@ -242,11 +231,7 @@ lines.push('');
 if (!previous.length) {
   lines.push('First run — baseline established. Nothing to diff against yet.');
 } else if (!changes.length && !added.length && !removed.length) {
-  if (isDailySlot) {
-    lines.push('**Daily check complete — no changes.**');
-  } else {
-    lines.push('**No changes.** No price moves, no items added or removed.');
-  }
+  lines.push('**Daily check complete — no changes.** (testing @mention notifications)');
 } else {
   if (changes.length) {
     const up = changes.filter((c) => +c.Change > 0).length;
@@ -290,8 +275,6 @@ if (failures.length) {
 lines.push('---');
 lines.push('_Renames are invisible to name matching, so an item Disney renamed alongside a price change will not appear above._');
 
-// Always post on the daily window (12–14 UTC) so you get a reliable ~6am Pacific email.
-// Other runs only post when there is real news.
 const hasNews = !previous.length || changes.length > 0 || added.length > 0 || removed.length > 0 || failures.length > 0;
 const shouldPost = hasNews || isDailySlot;
 if (shouldPost) await fs.writeFile('POST_COMMENT', '1');
