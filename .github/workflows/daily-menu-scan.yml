@@ -59,4 +59,10 @@ jobs:
               --body "Comments post only when a scan finds a price change, a new/removed item, or a venue failure. Quiet runs stay silent.")
             ISSUE=$(basename "$URL")
           fi
-          gh issue comment "$ISSUE" --body-file summary.md
+          # Prepend @mention so the owner actually receives the notification
+          {
+            echo "@scoopdisney"
+            echo ""
+            cat summary.md
+          } > comment-body.md
+          gh issue comment "$ISSUE" --body-file comment-body.md
