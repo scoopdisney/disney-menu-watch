@@ -230,7 +230,9 @@ if (changes.length) {
 const money = (c) => `- **${c.Restaurant}** — ${c.Item}: $${c['Old Price']} → $${c['New Price']} (${c.Change > 0 ? '+' : ''}${c.Change}, ${c.Percent})`;
 const lines = [];
 
-const isDailySlot = true; // TEMP FORCE for email test
+const hour = new Date().getUTCHours();
+// Wider window (12–14 UTC) to tolerate GitHub schedule delays around the 13:00 slot
+const isDailySlot = hour >= 12 && hour <= 14;
 
 lines.push(`## Menu scan ${NOW} UTC`);
 lines.push('');
@@ -240,7 +242,11 @@ lines.push('');
 if (!previous.length) {
   lines.push('First run — baseline established. Nothing to diff against yet.');
 } else if (!changes.length && !added.length && !removed.length) {
-  lines.push('**Daily check complete — no changes.** (forced test)');
+  if (isDailySlot) {
+    lines.push('**Daily check complete — no changes.**');
+  } else {
+    lines.push('**No changes.** No price moves, no items added or removed.');
+  }
 } else {
   if (changes.length) {
     const up = changes.filter((c) => +c.Change > 0).length;
@@ -284,6 +290,8 @@ if (failures.length) {
 lines.push('---');
 lines.push('_Renames are invisible to name matching, so an item Disney renamed alongside a price change will not appear above._');
 
+// Always post on the daily window (12–14 UTC) so you get a reliable ~6am Pacific email.
+// Other runs only post when there is real news.
 const hasNews = !previous.length || changes.length > 0 || added.length > 0 || removed.length > 0 || failures.length > 0;
 const shouldPost = hasNews || isDailySlot;
 if (shouldPost) await fs.writeFile('POST_COMMENT', '1');
