@@ -138,6 +138,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-08-28,Bengal Barbecue,Disneyland Park,Banyan Beef Skewer,Jungle Skewers,Snack,Hot and Spicy Beef Skewer,7.99,disneyland/bengal-barbecue
 2026-08-28,Bengal Barbecue,Disneyland Park,Bengal Beef Skewer,Jungle Skewers,Snack,Beef Skewer in Sweet Zulu Sauce,7.99,disneyland/bengal-barbecue
 2026-08-28,Bengal Barbecue,Disneyland Park,Bengal Rice Plate,Jungle Skewers,Snack,"Choice of Two Regular Skewers served with Jasmine Rice, Pineapple Slaw",19.99,disneyland/bengal-barbecue
+2026-08-28,Bengal Barbecue,Disneyland Park,Garlic Naan,Jungle Skewers,Snack,"Grilled Bread, basted with Herb Butter",5.79,disneyland/bengal-barbecue
 2026-08-28,Bengal Barbecue,Disneyland Park,Bulgogi Bean Salad,Plant-Based,Snack,"Cucumber, Edamame, Chickpeas and Bell Peppers, tossed in Ginger-Scallion Dressing",6.49,disneyland/bengal-barbecue
 2026-08-28,Bengal Barbecue,Disneyland Park,Iced Pandan Cooler,Thirst Aid,Snack,with Brown Sugar Popping Spheres and Ube Cream,7.99,disneyland/bengal-barbecue
 2026-08-28,Bengal Barbecue,Disneyland Park,Jungle Julep,Thirst Aid,Snack,"refreshing Slush of Pineapple, Orange, Grape, and Lemon Juices",7.99,disneyland/bengal-barbecue
@@ -796,7 +797,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-08-28,Palm Breeze Bar,Disneyland Hotel,Caesar Salad,Salads,Lunch; Dinner,"House-made Croutons, Cherry Tomatoes, Parmesan",22.00,disneyland-hotel/palm-breeze-bar
 2026-08-28,Palm Breeze Bar,Disneyland Hotel,Heirloom Beet Salad,Salads,Lunch; Dinner,"Roasted & Marinated Beets, Baby Kale, Persian Cucumbers, Whipped Stracciatella Mozzarella, Candied Walnuts, Herb Vinaigrette",22.00,disneyland-hotel/palm-breeze-bar
 2026-08-28,Palm Breeze Bar,Disneyland Hotel,Lolla Rosa Salad,Plant-Based,Lunch; Dinner,"Tender Lolla Rosa Lettuce, Endive, Shaved Fennel, Mandarin Orange, Strawberries, Toasted Marcona Almonds, Meyer Lemon-Tarragon Vinaigrette, Herb Oil",21.00,disneyland-hotel/palm-breeze-bar
-2026-08-28,Palm Breeze Bar,Disneyland Hotel,Hoagie of the Month - August,Sandwiches,Lunch; Dinner,"Ask about our Hoagie of the Month (Salami, Prosciutto, Spicy Capicola, Shredded Lettuce, Pepperoncini, Pesto Mayonnaise, Sun-dried Tomato Aïoli)",25.00,disneyland-hotel/palm-breeze-bar
+2026-08-28,Palm Breeze Bar,Disneyland Hotel,Hoagie of the Month,Sandwiches,Lunch; Dinner,Ask about our Hoagie of the Month,25.00,disneyland-hotel/palm-breeze-bar
 2026-08-28,Palm Breeze Bar,Disneyland Hotel,Turkey Club,Sandwiches,Lunch; Dinner,"Roasted Turkey Breast, Smoked Bacon, Avocado, Tomato, Gem Lettuce, French Roll",25.00,disneyland-hotel/palm-breeze-bar
 2026-08-28,Palm Breeze Bar,Disneyland Hotel,Palm Breeze Burger*,Sandwiches,Lunch; Dinner,"Angus Beef, Cheddar Cheese, House Spread, Lettuce, Tomato, Onion, Pickles, Toasted Brioche Bun, served with French Fries, House Potato Chips, or Fresh Fruit",28.00,disneyland-hotel/palm-breeze-bar
 2026-08-28,Palm Breeze Bar,Disneyland Hotel,Jumbo Lump Crab Roll,Sandwiches,Lunch; Dinner,"Tarragon & Lemon Aïoli, Fresh Dill, Toasted Brioche, served with French Fries, House Potato Chips, or Fresh Fruit",29.00,disneyland-hotel/palm-breeze-bar
