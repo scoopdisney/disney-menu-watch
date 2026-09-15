@@ -9,7 +9,7 @@ const TODAY = new Date().toISOString().slice(0, 10);
 const NOW = new Date().toISOString().slice(0, 16).replace('T', ' ');
 const HEADER = ['Pulled', 'Restaurant', 'Park', 'Item', 'Category', 'MealPeriods', 'Description', 'Price', 'Source'];
 const LOG_HEADER = ['Detected', 'Restaurant', 'Park', 'Item', 'Category', 'Old Price', 'New Price', 'Change', 'Percent', 'Source'];
-const CONCURRENCY = 6;
+const CONCURRENCY = 3;
 
 const current = [];
 const failures = [];

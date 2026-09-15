@@ -1,15 +1,30 @@
 const API = 'https://disneyland.disney.go.com/dining/dinemenu/api/menu?searchTerm=';
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36';
+const GAP_MS = Number(process.env.MENU_GAP_MS || 400);
+
+let nextSlot = 0;
+async function gate() {
+  const now = Date.now();
+  const slot = Math.max(now, nextSlot);
+  nextSlot = slot + GAP_MS;
+  if (slot > now) await new Promise((r) => setTimeout(r, slot - now));
+}
 
 export async function getMenu(slug) {
-  for (let attempt = 1; attempt <= 3; attempt++) {
+  for (let attempt = 1; attempt <= 4; attempt++) {
+    await gate();
     try {
-      const res = await fetch(API + slug, { headers: { accept: 'application/json', 'user-agent': UA } });
+      const res = await fetch(API + slug, {
+        headers: { accept: 'application/json', 'user-agent': UA, 'accept-language': 'en-US,en;q=0.9' },
+      });
+      if (res.status === 404) throw Object.assign(new Error('HTTP 404'), { fatal: true });
       if (!res.ok) throw new Error('HTTP ' + res.status);
-      return await res.json();
+      const body = await res.text();
+      if (body.trimStart().startsWith('<')) throw new Error('HTML challenge instead of JSON');
+      return JSON.parse(body);
     } catch (err) {
-      if (attempt === 3) throw err;
-      await new Promise((r) => setTimeout(r, 1200 * attempt));
+      if (err.fatal || attempt === 4) throw err;
+      await new Promise((r) => setTimeout(r, 2000 * attempt * attempt));
     }
   }
 }
