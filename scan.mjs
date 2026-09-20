@@ -30,7 +30,7 @@ for (let i = 0; i < VENUES.length; i += CONCURRENCY) {
 const MIN_ROWS = Number(process.env.MIN_ROWS || 1800);
 if (failures.length > 5 || current.length < MIN_ROWS) {
   await fs.mkdir('data', { recursive: true });
-  await fs.writeFile('summary.md', `## Menu scan ${NOW} UTC — ABORTED\n\nOnly ${current.length} rows and ${failures.length} venue failures. Snapshot left untouched.\n\n${failures.map((f) => '- ' + f).join('\n')}\n`);
+  await fs.writeFile('summary.md', `## Menu scan ${new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles', weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })} — ABORTED\n\nOnly ${current.length} rows and ${failures.length} venue failures. Snapshot left untouched.\n\n${failures.map((f) => '- ' + f).join('\n')}\n`);
   await fs.writeFile('POST_COMMENT', '1');
   console.log('Aborted: incomplete pull');
   process.exit(0);
