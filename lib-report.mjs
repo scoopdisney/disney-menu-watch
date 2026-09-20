@@ -2,7 +2,7 @@ export function buildSummary({ now, rowCount, venueCount, failures, previous, ch
   const money = (c) => `- **${c.Restaurant}** — ${c.Item}: $${c['Old Price']} → $${c['New Price']} (${c.Change > 0 ? '+' : ''}${c.Change}, ${c.Percent})`;
   const lines = [];
 
-  lines.push(`## Menu scan ${now} UTC`);
+  lines.push(`## Menu scan ${new Date().toLocaleString('en-US', { timeZone: 'America/Los_Angeles', weekday: 'short', month: 'short', day: 'numeric', year: 'numeric', hour: 'numeric', minute: '2-digit', timeZoneName: 'short' })}`);
   lines.push('');
   lines.push(`${rowCount} rows across ${venueCount} venues${failures.length ? `, ${failures.length} venue failure(s)` : ', 0 failures'}.`);
   lines.push('');
