@@ -491,6 +491,14 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,Tiki Juice Bar,Disneyland Park,Chamoy Sauce,Desserts,Snack,Dressing Cup,1.39,disneyland/tiki-juice-bar
 2026-11-04,Tiki Juice Bar,Disneyland Park,DASANI® Bottled Water,Beverages,Snack,,4.79,disneyland/tiki-juice-bar
 2026-11-04,Tiki Juice Bar,Disneyland Park,DOLE® Pineapple Juice,Beverages,Snack,DOLE® Pineapple Juice,4.79,disneyland/tiki-juice-bar
+2026-11-04,Market House,Disneyland Park,Iced Tiramisu Velvet Latte - Grande,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,7.99,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Iced Sugar Cookie Matcha,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,7.99,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Snowy Apple Drink,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,7.29,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Snowcap Marshmallow Mocha - Grande,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,8.49,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Iced Snowcap Marshmallow Hot Chocolate - Grande,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,7.49,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Beartista Cake Pop,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,4.49,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Sugar Plum Cheese Danish,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,5.49,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Cranberry Bliss Bar,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,4.99,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Pumpkin Spice Latte - Grande,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,7.99,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Iced Pumpkin Cream Chai Latte - Grande,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,7.99,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Pumpkin Cream Cold Brew - Grande,Market House Seasonal Offerings,Breakfast; Lunch And Dinner,,8.49,disneyland/market-house
@@ -540,6 +548,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,Market House,Disneyland Park,Matcha Crème Frappuccino® Blended Beverage - Grande,Frappuccino® Blended Beverages,Breakfast; Lunch And Dinner,,7.69,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Strawberry Crème Frappuccino® Blended Beverage - Grande,Frappuccino® Blended Beverages,Breakfast; Lunch And Dinner,,7.69,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Mocha Cookie Crumble Frappuccino® Blended Beverage - Grande,Frappuccino® Blended Beverages,Breakfast; Lunch And Dinner,,7.69,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Apple Pomegranate Lemonade Refresher,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.29,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Blue Coconut Lemonade Energy Refresher,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.79,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Tropical Butterfly Lemonade Energy Refresher,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,8.29,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Strawberry Açaí Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,6.79,disneyland/market-house
@@ -548,9 +557,9 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,Market House,Disneyland Park,Mango Dragonfruit Lemonade Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.29,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Pink Drink Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.29,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Dragon Drink® Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.29,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Peppermint Mocha - Grande,Espresso & Coffee,Breakfast; Lunch And Dinner,,8.49,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Iced Horchata Shaken Espresso,Espresso & Coffee,Breakfast; Lunch And Dinner,,7.69,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Caramel Protein Matcha Latte,Espresso & Coffee,Breakfast; Lunch And Dinner,,8.99,disneyland/market-house
-2026-11-04,Market House,Disneyland Park,Peppermint Mocha - Grande,Espresso & Coffee,Breakfast; Lunch And Dinner,,8.49,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Iced Brown Sugar Oatmilk Shaken Espresso - Grande,Espresso & Coffee,Breakfast; Lunch And Dinner,,7.69,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Freshly Brewed Coffee - Grande,Espresso & Coffee,Breakfast; Lunch And Dinner,Regular or Decaf,5.49,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Caffè Americano - Grande,Espresso & Coffee,Breakfast; Lunch And Dinner,,5.69,disneyland/market-house
@@ -565,11 +574,11 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,Market House,Disneyland Park,Starbucks® Cold Brew Coffee - Grande,Cold Brew and More,Breakfast; Lunch And Dinner,,6.99,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Salted Caramel Cream Cold Brew - Grande,Cold Brew and More,Breakfast; Lunch And Dinner,,8.49,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Vanilla Sweet Cream Cold Brew - Grande,Cold Brew and More,Breakfast; Lunch And Dinner,,7.49,disneyland/market-house
+2026-11-04,Market House,Disneyland Park,Iced Gingerbread Chai Latte - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,7.99,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Iced Banana Bread Matcha Tea Latte,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,8.49,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Iced Banana Bread Matcha,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,7.99,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Iced Double Berry Matcha,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,8.99,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Iced Dubai Chocolate Matcha,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,7.99,disneyland/market-house
-2026-11-04,Market House,Disneyland Park,Iced Gingerbread Chai Latte - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,7.99,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Teavana® Shaken Iced Tea - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,"Black, Green or Passion Tango™",5.79,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Teavana® Shaken Iced Tea Lemonade - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,"Black, Green or Passion Tango™",6.29,disneyland/market-house
 2026-11-04,Market House,Disneyland Park,Chai Latte - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,6.49,disneyland/market-house
@@ -1276,6 +1285,13 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Minute Maid® Lemonade,Non-Alcoholic Beverages,Lunch; Dinner,,5.25,disney-california-adventure/magic-key-terrace
 2026-11-04,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Assorted Twinings of London® Teas,Non-Alcoholic Beverages,Lunch; Dinner,,5.50,disney-california-adventure/magic-key-terrace
 2026-11-04,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Freshly Brewed Joffrey's Coffee®,Non-Alcoholic Beverages,Lunch; Dinner,,5.50,disney-california-adventure/magic-key-terrace
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Tiramisu Velvet Latte - Grande,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,7.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Sugar Cookie Matcha,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,7.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Snowy Apple Drink,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,7.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Snowcap Marshmallow Mocha - Grande,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,8.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Snowcap Marshmallow Hot Chocolate,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,7.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Beartista Cake Pop,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,4.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Cranberry Bliss Bar,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,4.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Blended Mango Dragonfruit Lemonade Energy Refresher - Grande,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,8.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Blended Pink Energy Drink - Grande,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,8.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Unicorn Cake Pop,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,4.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
@@ -1286,6 +1302,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Pecan Crunch Latte - Grande,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,7.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Pumpkin Cream Cheese Muffin,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,5.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Hedgehog Cake Pop,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,4.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Sugar Plum Cheese Danish,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,5.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Impossible™ Breakfast Sandwich,Breakfast Sandwiches and Wraps,Breakfast,,6.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,"Bacon, Gouda and Egg Breakfast Sandwich",Breakfast Sandwiches and Wraps,Breakfast,,5.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,"Sausage, Cheddar and Egg Breakfast Sandwich",Breakfast Sandwiches and Wraps,Breakfast,,5.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
@@ -1318,6 +1335,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Strawberry Crème Frappuccino® Blended Beverage - Grande,Frappuccino® Blended Beverages,Breakfast; Lunch And Dinner,,7.69,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Caramel Ribbon Crunch Frappuccino® - Grande,Frappuccino® Blended Beverages,Breakfast; Lunch And Dinner,,7.69,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Mocha Cookie Crumble Frappuccino® Blended Beverage - Grande,Frappuccino® Blended Beverages,Breakfast; Lunch And Dinner,,7.69,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Apple Pomegranate Lemonade Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Blue Coconut Lemonade Energy Refresher,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.79,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Tropical Butterfly Lemonade Energy Refresher,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,8.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Strawberry Açaí Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,6.79,disney-california-adventure/fiddler-fifer-and-practical-cafe
@@ -1326,9 +1344,9 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Mango Dragonfruit Lemonade Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Pink Drink Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Dragon Drink® Refresher - Grande,Starbucks Refreshers®,Breakfast; Lunch And Dinner,,7.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Peppermint Mocha - Grande,Espresso and Coffee,Breakfast; Lunch And Dinner,,8.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Horchata Shaken Espresso,Espresso and Coffee,Breakfast; Lunch And Dinner,,7.69,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Caramel Protein Matcha Latte,Espresso and Coffee,Breakfast; Lunch And Dinner,,8.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
-2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Peppermint Mocha - Grande,Espresso and Coffee,Breakfast; Lunch And Dinner,,8.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Brown Sugar Oatmilk Shaken Espresso - Grande,Espresso and Coffee,Breakfast; Lunch And Dinner,,7.69,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Cortado - Short,Espresso and Coffee,Breakfast; Lunch And Dinner,,6.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Espresso - Single,Espresso and Coffee,Breakfast; Lunch And Dinner,,4.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
@@ -1351,11 +1369,11 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Vanilla Sweet Cream Cold Brew - Grande,Cold Brew and More,Breakfast; Lunch And Dinner,,7.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Salted Caramel Cream Cold Brew - Grande,Cold Brew and More,Breakfast; Lunch And Dinner,,8.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Chocolate Cream Cold Brew - Grande,Cold Brew and More,Breakfast; Lunch And Dinner,,8.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
+2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Gingerbread Chai Latte - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,7.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Banana Bread Matcha Tea Latte,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,8.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Banana Bread Matcha,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,7.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Double Berry Matcha,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,8.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Dubai Chocolate Matcha,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,7.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
-2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Gingerbread Chai Latte - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,7.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Teavana® Shaken Iced Tea - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,Black or Green,5.79,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Teavana® Shaken Iced Tea Lemonade - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,Black or Green,6.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-04,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Chai Latte - Grande,Teavana® Tea Hot or Iced,Breakfast; Lunch And Dinner,,6.49,disney-california-adventure/fiddler-fifer-and-practical-cafe
