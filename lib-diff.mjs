@@ -20,6 +20,7 @@ export function diff(previous, current, now) {
     if (!cRows) { removed.push(...bRows); continue; }
     if (bRows.length === 1 && cRows.length === 1) {
       const o = Number(bRows[0].Price), n = Number(cRows[0].Price);
+      if (bRows[0].Price === '' || cRows[0].Price === '') continue; // unpriced: only new/gone matters
       if (o !== n) {
         changes.push({
           Detected: now, Restaurant: cRows[0].Restaurant, Park: cRows[0].Park, Item: cRows[0].Item,
@@ -29,6 +30,7 @@ export function diff(previous, current, now) {
       }
     } else {
       for (const b of bRows) {
+        if (b.Price === '' || cRows.some((c) => c.Price === '')) continue;
         const near = cRows.reduce((a, c) => (Math.abs(+c.Price - +b.Price) < Math.abs(+a.Price - +b.Price) ? c : a));
         if (Number(near.Price) !== Number(b.Price)) {
           flags.push(`${b.Restaurant} — ${b.Item}: ${b.Price} vs nearest ${near.Price} (${cRows.length} rows share this name)`);

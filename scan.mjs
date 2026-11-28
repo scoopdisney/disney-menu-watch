@@ -40,12 +40,17 @@ await fs.mkdir('data', { recursive: true });
 const prevText = await readIfExists('data/current.csv');
 const previous = prevText ? parseCsv(prevText) : [];
 
-const { changes, flags, added, removed, prevCounts } = diff(previous, current, NOW);
+const d = diff(previous, current, NOW);
+const { changes, flags, prevCounts } = d;
+// First run after unpriced items were added: record them silently instead of reporting ~250 "new items".
+const unpricedBaseline = previous.length > 0 && !previous.some((r) => r.Price === '');
+const added = unpricedBaseline ? d.added.filter((r) => r.Price !== '') : d.added;
+const removed = d.removed;
 
 const countDeltas = [];
 for (const [venue, n] of counts) {
   const was = prevCounts.get(venue);
-  if (was !== undefined && was !== n) countDeltas.push(`${venue}: ${was} → ${n}`);
+  if (was !== undefined && was !== n && !unpricedBaseline) countDeltas.push(`${venue}: ${was} → ${n}`);
 }
 
 await fs.writeFile('data/current.csv', toCsv(current, HEADER));

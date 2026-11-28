@@ -1,5 +1,6 @@
 const API = 'https://disneyland.disney.go.com/dining/dinemenu/api/menu?searchTerm=';
 const UA = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0 Safari/537.36';
+const NOT_AN_ITEM = /^\$|upon request|plus tax|gratuity|^\(|\bonly\s*$|per (adult|child|person)/i;
 const GAP_MS = Number(process.env.MENU_GAP_MS || 400);
 
 let nextSlot = 0;
@@ -39,11 +40,12 @@ export function collectVenue(json, park, parkSlug, slug, today) {
       const category = group?.name || '';
       for (const item of group?.items || []) {
         const prices = item?.prices || [];
-        if (!prices.length) continue;
-        const p = prices.find((x) => typeof x?.withoutTax === 'number') || prices[0];
-        if (typeof p?.withoutTax !== 'number') continue;
-        const price = p.withoutTax.toFixed(2);
+        const p = prices.find((x) => typeof x?.withoutTax === 'number');
         const title = String(item?.title || '').trim();
+        // Unpriced items (Napa Rose a la carte, Trader Sam's drinks, sides, flavors) are kept with Price ''
+        // so new and removed dishes are caught; menu notes like "Braille menu available" are not items.
+        if (!p && (!title || NOT_AN_ITEM.test(title))) continue;
+        const price = p ? p.withoutTax.toFixed(2) : '';
         const k = [venueName, title, price, category].join('\u0000');
         if (!byKey.has(k)) {
           byKey.set(k, {

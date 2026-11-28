@@ -23,13 +23,13 @@ export function buildSummary({ now, rowCount, venueCount, failures, previous, ch
     }
     if (added.length) {
       lines.push(`### ${added.length} new item${added.length > 1 ? 's' : ''}`);
-      lines.push(...added.slice(0, 40).map((r) => `- **${r.Restaurant}** — ${r.Item} ($${r.Price})`));
+      lines.push(...added.slice(0, 40).map((r) => `- **${r.Restaurant}** — ${r.Item} (${r.Price === '' ? 'no price listed' : '$' + r.Price})`));
       if (added.length > 40) lines.push(`- …and ${added.length - 40} more`);
       lines.push('');
     }
     if (removed.length) {
       lines.push(`### ${removed.length} item${removed.length > 1 ? 's' : ''} gone`);
-      lines.push(...removed.slice(0, 40).map((r) => `- **${r.Restaurant}** — ${r.Item} (was $${r.Price})`));
+      lines.push(...removed.slice(0, 40).map((r) => `- **${r.Restaurant}** — ${r.Item} (${r.Price === '' ? 'no price listed' : 'was $' + r.Price})`));
       if (removed.length > 40) lines.push(`- …and ${removed.length - 40} more`);
       lines.push('');
     }
