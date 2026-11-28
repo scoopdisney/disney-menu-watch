@@ -1,4 +1,8 @@
 Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
+2026-11-28,Blue Bayou Restaurant,Disneyland Park,Gumbo,A Taste of Blue Bayou $89,Lunch; Dinner,"Chicken, Tasso Ham, Andouille Sausage and Peppers with Steamed Rice",,disneyland/blue-bayou-restaurant
+2026-11-28,Blue Bayou Restaurant,Disneyland Park,French Quarter Fields,A Taste of Blue Bayou $89,Lunch; Dinner,"Little Gem Lettuce, Crispy Quinoa, Green Grapes, Apples and Cranberry Vinaigrette",,disneyland/blue-bayou-restaurant
+2026-11-28,Blue Bayou Restaurant,Disneyland Park,Filet Mignon*,A Taste of Blue Bayou $89,Lunch; Dinner,"Bayou Potatoes, Bacon Braised Swiss Chard and Shallot Demi-glace",,disneyland/blue-bayou-restaurant
+2026-11-28,Blue Bayou Restaurant,Disneyland Park,Banana Upside-down Cake,A Taste of Blue Bayou $89,Lunch; Dinner,Brûléed Banana and Bananas Foster Sauce,,disneyland/blue-bayou-restaurant
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,Crab Cakes,Starters,Lunch; Dinner,Rémoulade Sauce and Petite Apple-Arugula Salad,18.00,disneyland/blue-bayou-restaurant
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,Gumbo,Starters,Lunch; Dinner,"Chicken, Tasso Ham, Andouille Sausage and Peppers with Steamed Rice",12.00,disneyland/blue-bayou-restaurant
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,Garlic Cheese Dip with Sourdough Boule,Starters,Lunch; Dinner,"Sourdough Boule, Garlic Confit and Cheesy Grits",15.00,disneyland/blue-bayou-restaurant
@@ -14,6 +18,10 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,Whole-Grain Pasta,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with Choice of Two (2) Selections and choice of Small Low-fat Milk or Small DASANI® Water. Meets Disney Nutrition Guidelines for Complete Meals without substitutions,12.00,disneyland/blue-bayou-restaurant
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,Sautéed Shrimp,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,Served with Choice of Two (2) Selections and choice of Small Low-fat Milk or Small DASANI® Water. Meets Disney Nutritional Guidelines for Complete Meals without substitutions,14.00,disneyland/blue-bayou-restaurant
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,Chicken Strips,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,Served with Choice of Two (2) Selections and choice of Small Low-fat Milk or Small DASANI® Water.,12.00,disneyland/blue-bayou-restaurant
+2026-11-28,Blue Bayou Restaurant,Disneyland Park,Market Vegetables,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/blue-bayou-restaurant
+2026-11-28,Blue Bayou Restaurant,Disneyland Park,Seasonal Fruit,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/blue-bayou-restaurant
+2026-11-28,Blue Bayou Restaurant,Disneyland Park,Steamed Rice,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/blue-bayou-restaurant
+2026-11-28,Blue Bayou Restaurant,Disneyland Park,Mashed Potatoes,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/blue-bayou-restaurant
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,Schramsberg Blanc de Blancs,Sparkling Wine,Lunch; Dinner,"Napa Valley, California",24.00,disneyland/blue-bayou-restaurant
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,"Ste Michelle, Riesling",White Wine,Lunch; Dinner,"Columbia Valley, Washington",17.00,disneyland/blue-bayou-restaurant
 2026-11-28,Blue Bayou Restaurant,Disneyland Park,"Frank Family Vineyards, Chardonnay",White Wine,Lunch; Dinner,"Carneros, California",21.00,disneyland/blue-bayou-restaurant
@@ -51,6 +59,9 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Carnation Café,Disneyland Park,Silver Dollar Pancakes,Kids' Create-Your-Own Entrées (choose one),Breakfast,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water,10.00,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,Scrambled Eggs,Kids' Create-Your-Own Entrées (choose one),Breakfast,served with choice of two (2) Selections and choice of small DASANI® Water or small Lowfat Milk,10.00,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,Mickey-shaped Waffles,Kids' Create-Your-Own Entrées (choose one),Breakfast,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water,10.00,disneyland/carnation-cafe
+2026-11-28,Carnation Café,Disneyland Park,Seasonal Fruit,Kids' Create-Your-Own Selections (choose two),Breakfast; Lunch; Dinner,,,disneyland/carnation-cafe
+2026-11-28,Carnation Café,Disneyland Park,Breakfast Potatoes,Kids' Create-Your-Own Selections (choose two),Breakfast,,,disneyland/carnation-cafe
+2026-11-28,Carnation Café,Disneyland Park,Applewood-smoked Bacon,Kids' Create-Your-Own Selections (choose two),Breakfast,,,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,"Chandon, Sparkling Wine",Sparkling Wine and Mimosas,Breakfast,California,18.00,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,Mimosa,Sparkling Wine and Mimosas,Breakfast,Chandon Sparkling Wine with a choice of Orange Juice or Strawberry Syrup,21.00,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,"Fess Parker, Chardonnay",Featured Wines by the Glass,Breakfast; Lunch; Dinner,Santa Barbara County,13.00,disneyland/carnation-cafe
@@ -86,8 +97,13 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Carnation Café,Disneyland Park,Hamburger Slider,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water,12.00,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,Mac & Cheese,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water,12.00,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,Chicken Tenders,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of small DASANI® Water or small Lowfat Milk,12.00,disneyland/carnation-cafe
+2026-11-28,Carnation Café,Disneyland Park,Seasonal Vegetables,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/carnation-cafe
+2026-11-28,Carnation Café,Disneyland Park,French Fries,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/carnation-cafe
+2026-11-28,Carnation Café,Disneyland Park,Mashed Potatoes,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,Freshly Brewed Joffrey's Coffee® 70th Anniversary Blend,Beverages,Lunch; Dinner,,4.75,disneyland/carnation-cafe
 2026-11-28,Carnation Café,Disneyland Park,Fountain Beverages,Beverages,Lunch; Dinner,"Coca-Cola®, Diet Coke®, Coca-Cola® Zero Sugar, Sprite®, Coca-Cola Cherry®, Fanta® Orange, Barq's® Root Beer, Minute Maid® Zero Sugar Lemonade, or Iced Tea",5.25,disneyland/carnation-cafe
+2026-11-28,Carnation Café,Disneyland Park,Guests must speak to a Cast Member about their allergy-friendly request,Allergy-Friendly Dessert,Lunch; Dinner,,,disneyland/carnation-cafe
+2026-11-28,Carnation Café,Disneyland Park,Scoop of Ice Cream,Allergy-Friendly Dessert,Lunch; Dinner,"Vanilla Ice Cream topped with Whipped Cream. (For Gluten/Wheat, Egg, Fish/Shellfish, Peanut/Tree Nut, Sesame and Soy Allergies)",,disneyland/carnation-cafe
 2026-11-28,Cafe Orleans,Disneyland Park,Gumbo,Small Bites,Lunch; Dinner,"Chicken, Tasso Ham, Andouille Sausage and Peppers with Steamed Rice",12.00,disneyland/cafe-orleans
 2026-11-28,Cafe Orleans,Disneyland Park,Caesar Salad,Small Bites,Lunch; Dinner,Lettuce and Grana Padano with House-made Crouton and Caesar Dressing,14.00,disneyland/cafe-orleans
 2026-11-28,Cafe Orleans,Disneyland Park,Braised Beef,Entrées,Lunch; Dinner,Mashed Potatoes and Seasonal Vegetables with Bacon and Mushroom Demi-glace,35.00,disneyland/cafe-orleans
@@ -115,6 +131,20 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Cafe Orleans,Disneyland Park,Sautéed Shrimp,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water,14.00,disneyland/cafe-orleans
 2026-11-28,Cafe Orleans,Disneyland Park,Ham and Cheese Sandwich,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,,12.00,disneyland/cafe-orleans
 2026-11-28,Cafe Orleans,Disneyland Park,Mickey's Cheesy Macaroni,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water,12.00,disneyland/cafe-orleans
+2026-11-28,Cafe Orleans,Disneyland Park,Market Vegetables,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/cafe-orleans
+2026-11-28,Cafe Orleans,Disneyland Park,Seasonal Fruit,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/cafe-orleans
+2026-11-28,Cafe Orleans,Disneyland Park,Jasmine Rice,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/cafe-orleans
+2026-11-28,Cafe Orleans,Disneyland Park,Pommes Frites,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/cafe-orleans
+2026-11-28,Cafe Orleans,Disneyland Park,Mashed Potatoes,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/cafe-orleans
+2026-11-28,Plaza Inn,Disneyland Park,Assorted Cereal,Entrées,Breakfast,,,disneyland/plaza-inn
+2026-11-28,Plaza Inn,Disneyland Park,Made-to-Order Omelets,Entrées,Breakfast,,,disneyland/plaza-inn
+2026-11-28,Plaza Inn,Disneyland Park,Scrambled Eggs,Entrées,Breakfast,,,disneyland/plaza-inn
+2026-11-28,Plaza Inn,Disneyland Park,Sausage,Entrées,Breakfast,,,disneyland/plaza-inn
+2026-11-28,Plaza Inn,Disneyland Park,Bacon,Entrées,Breakfast,,,disneyland/plaza-inn
+2026-11-28,Plaza Inn,Disneyland Park,Biscuits and Gravy,Entrées,Breakfast,,,disneyland/plaza-inn
+2026-11-28,Plaza Inn,Disneyland Park,Minnie Waffles,Entrées,Breakfast,,,disneyland/plaza-inn
+2026-11-28,Plaza Inn,Disneyland Park,Breakfast Potatoes,Entrées,Breakfast,,,disneyland/plaza-inn
+2026-11-28,Plaza Inn,Disneyland Park,"Variety of Muffins, Croissants, Danish, and Fruit",Entrées,Breakfast,,,disneyland/plaza-inn
 2026-11-28,Plaza Inn,Disneyland Park,Holiday Stainless Steel Tumbler,Seasonal Offerings,Lunch And Dinner,"Includes choice of Fountain Beverage at time of purchase. Limit two (2) per person, per transaction. No discounts apply.",29.99,disneyland/plaza-inn
 2026-11-28,Plaza Inn,Disneyland Park,Holiday Travel Tumbler,Seasonal Offerings,Lunch And Dinner,"Includes choice of Fountain Beverage at time of purchase. Limit ten (10) per person, per transaction. No discounts apply.",14.99,disneyland/plaza-inn
 2026-11-28,Plaza Inn,Disneyland Park,Gingerbread Cake,Seasonal Offerings,Lunch And Dinner,"with Cream Cheese Filling and Gingerbread Crunch, finished with Buttercream, Glaze and a Chocolate Gingerbread Cookie",8.49,disneyland/plaza-inn
@@ -276,6 +306,9 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,River Belle Terrace,Disneyland Park,Impossible™ Meatloaf,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of small DASANI® Water or small Lowfat Milk,12.00,disneyland/river-belle-terrace
 2026-11-28,River Belle Terrace,Disneyland Park,Mac & Cheese,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water,12.00,disneyland/river-belle-terrace
 2026-11-28,River Belle Terrace,Disneyland Park,Chicken Tenders,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of small DASANI® Water or small Lowfat Milk,12.00,disneyland/river-belle-terrace
+2026-11-28,River Belle Terrace,Disneyland Park,Mashed Potatoes,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/river-belle-terrace
+2026-11-28,River Belle Terrace,Disneyland Park,Seasonal Vegetables,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/river-belle-terrace
+2026-11-28,River Belle Terrace,Disneyland Park,Fresh Fruit,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disneyland/river-belle-terrace
 2026-11-28,River Belle Terrace,Disneyland Park,"Nielson, Chardonnay, Santa Barbara",Featured Wines by the Glass,Lunch; Dinner,,14.00,disneyland/river-belle-terrace
 2026-11-28,River Belle Terrace,Disneyland Park,"Meiomi, Pinot Noir, California",Featured Wines by the Glass,Lunch; Dinner,,18.00,disneyland/river-belle-terrace
 2026-11-28,River Belle Terrace,Disneyland Park,Cajun Lemonade Cocktail,Signature Cocktails,Lunch; Dinner,"Savory, Sweet and Spicy Vodka Lemonade",18.00,disneyland/river-belle-terrace
@@ -645,6 +678,15 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Waffle Cone or Cup - Double Scoop,By The Scoop - Waffle Cones or Waffle Cups,Snack,double scoop of Ice Cream served in a Waffle Cone or Waffle Cup,8.99,disneyland/gibson-girl-ice-cream-parlor
 2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Regular Cone or Regular Cup - Single Scoop,By The Scoop - Regular Cones or Regular Cups,Snack,single scoop of Ice Cream served in a Sugar Cone or cup,7.49,disneyland/gibson-girl-ice-cream-parlor
 2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Regular Cone or Regular Cup - Double Scoop,By The Scoop - Regular Cones or Regular Cups,Snack,double scoop of Ice Cream served in a Sugar Cone or cup,8.49,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Chocolate,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Strawberry,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Cookies and Cream,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Cookie Dough,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Vanilla,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Mint Chocolate Chip,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Rocky Road,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,No Sugar Added Butter Pecan,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
+2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Plant-based Vanilla Ice Cream,Ice Cream Flavors,Snack,,,disneyland/gibson-girl-ice-cream-parlor
 2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Peanuts,Ice Cream Toppings,Snack,Roasted and Chopped Peanuts,1.49,disneyland/gibson-girl-ice-cream-parlor
 2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Sprinkles,Ice Cream Toppings,Snack,Seasonal Sprinkles,1.49,disneyland/gibson-girl-ice-cream-parlor
 2026-11-28,Gibson Girl Ice Cream Parlor,Disneyland Park,Strawberry Topping,Ice Cream Toppings,Snack,Chopped Strawberries in Sauce,1.49,disneyland/gibson-girl-ice-cream-parlor
@@ -994,6 +1036,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Lamplight Lounge,Disney California Adventure,Little Gem Salmon Salad,Bigger Bites,Lunch; Dinner,"Pickled Red Onions, Cherry Tomatoes, House Ranch, Sourdough Crouton Dust and Manchego Cheese",26.00,disney-california-adventure/lamplight-lounge
 2026-11-28,Lamplight Lounge,Disney California Adventure,Lemon Rosemary Chicken,Bigger Bites,Lunch; Dinner,"with Whipped Potatoes, Snap Peas, Carrots and Chicken Jus",32.00,disney-california-adventure/lamplight-lounge
 2026-11-28,Lamplight Lounge,Disney California Adventure,Charbroiled Cheddar Burger*,Bigger Bites,Lunch; Dinner,"Lamplight Spread, Lettuce, House Pickles, Tomato and Grilled Onions on a Toasted Bun, served with Seasoned Fries",28.00,disney-california-adventure/lamplight-lounge
+2026-11-28,Lamplight Lounge,Disney California Adventure,Chef's Special,Bigger Bites,Lunch; Dinner,Ask about our Chef's Special,,disney-california-adventure/lamplight-lounge
 2026-11-28,Lamplight Lounge,Disney California Adventure,Brussels Caesar,Plant-based,Lunch; Dinner,"House-made Dressing, Toasted Pine Nuts and Garlic Croutons with Roasted Red Pepper-Tomato Sauce and Parmesan Cheese",15.00,disney-california-adventure/lamplight-lounge
 2026-11-28,Lamplight Lounge,Disney California Adventure,Impossible™ Burger,Plant-based,Lunch; Dinner,"Impossible™ Beef, American Cheese, House Spread, Grilled Onions, Lettuce and Tomato on a Potato Bun, served with Seasoned Fries",27.00,disney-california-adventure/lamplight-lounge
 2026-11-28,Lamplight Lounge,Disney California Adventure,Brownie,Plant-based,Lunch; Dinner,"with Vanilla Bean Ice Cream, Berry Sauce and Fresh Berries",11.00,disney-california-adventure/lamplight-lounge
@@ -1067,6 +1110,13 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Yukon Gold Mashed Potatoes,For the Table,Dinner,"Heavy Cream, Butter",15.00,disney-california-adventure/carthay-circle-restaurant
 2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Warm Brown Butter Hummingbird Cake,Desserts,Dinner,"Pecan Brittle, Pineapple Sherbet",16.00,disney-california-adventure/carthay-circle-restaurant
 2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Chocolate Pumpkin Feather Cake,Desserts,Dinner,"Candied Cranberries, Dark Chocolate Sauce",16.00,disney-california-adventure/carthay-circle-restaurant
+2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Seasonal Fruit with Honey Yogurt & Granola,Kids' - Appetizer (Choice of one),Dinner,,,disney-california-adventure/carthay-circle-restaurant
+2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Tomato Soup with Grilled Cheese Bar,Kids' - Appetizer (Choice of one),Dinner,,,disney-california-adventure/carthay-circle-restaurant
+2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Tempura Green Beans with Buttermilk Dressing,Kids' - Appetizer (Choice of one),Dinner,,,disney-california-adventure/carthay-circle-restaurant
+2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Honey Baked Ham,Kids' - Entrees (choice of one),Dinner,Served with Mac & Cheese and Apple Sauce with a choice of Small Low-fat Milk or Small DASANI® Water,,disney-california-adventure/carthay-circle-restaurant
+2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Orecchiette Pasta,Kids' - Entrees (choice of one),Dinner,"choice of Marinara, Butter, or Alfredo, served with a choice of Small Low-Fat Milk or Small DASANI® Water",,disney-california-adventure/carthay-circle-restaurant
+2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Filet Mignon*,Kids' - Entrees (choice of one),Dinner,Mashed Potatoes and Seasonal Vegetable served with a choice of Small Low-fat Milk or Small DASANI® Water.,,disney-california-adventure/carthay-circle-restaurant
+2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Mickey Cookie Sundae with Hot Fudge,Kids' Dessert ,Dinner,,,disney-california-adventure/carthay-circle-restaurant
 2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Rose Petal Soda,Non-Alcoholic Beverages,Dinner,locally sourced Purified Sparkling Water flavored with delicate Rose Essence and garnished with an edible Sugar-glazed Organic Rose Petal,8.00,disney-california-adventure/carthay-circle-restaurant
 2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Wildberry Lemonade,Non-Alcoholic Beverages,Dinner,"All Natural Lemonade with flavors of Blackberry, Strawberry, Raspberry, and Blueberry with a Spritz of Purified Sparkling Water",9.00,disney-california-adventure/carthay-circle-restaurant
 2026-11-28,Carthay Circle Restaurant,Disney California Adventure,Twin Bill,Non-Alcoholic Beverages,Dinner,A Classic Combination of natural Lemonade and Iced Tea lightly sweetened with Organic Agave Nectar,9.00,disney-california-adventure/carthay-circle-restaurant
@@ -1325,6 +1375,18 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Minute Maid® Lemonade,Non-Alcoholic Beverages,Lunch; Dinner,,5.25,disney-california-adventure/magic-key-terrace
 2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Assorted Twinings of London® Teas,Non-Alcoholic Beverages,Lunch; Dinner,,5.50,disney-california-adventure/magic-key-terrace
 2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Freshly Brewed Joffrey's Coffee®,Non-Alcoholic Beverages,Lunch; Dinner,,5.50,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Tomato Basil Soup,Allergy-Friendly Soups & Salads ,Lunch; Dinner,"with Fried Mozzarella, Basil Cream Foam and Micro Basil. (For Fish/Shellfish, Peanut/Tree Nut, Sesame and Soy Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Arancini,Allergy-Friendly Shareables,Lunch; Dinner,"Butternut Squash Risotto, Butternut Squash Purée, Mornay Sauce, Grated Romano, Basil & Chile Oils and Micro Basil. (For Fish/Shellfish, Peanut/Tree Nut, Sesame and Soy Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Focaccia Pizza,Allergy-Friendly Shareables,Lunch; Dinner,"Roasted Garlic Purée, Pecorino, Mozzarella, Prosciutto, Arugula, Red Wine Reduction, Pesto and Burrata. (For Fish/Shellfish, Peanut, Sesame and Soy Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Meats & Cheeses,Allergy-Friendly Shareables,Lunch; Dinner,Assortment of Cheeses and Cured Meats. (For Fish/Shellfish and Peanut Allergies),,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Bistecca Romesco*,Allergy-Friendly Entrées,Lunch; Dinner,"New York Steak, Romesco, Seasoned Potatoes, Salsa Verde, Arugula Salad with Toasted Almonds and Sourdough Croutons. (For Peanut, Sesame, Soy and Shellfish Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Chicken Milanese Caesar Salad,Allergy-Friendly Entrées,Lunch; Dinner,"Breaded and Fried Chicken Breast, Charred Broccolini, Romaine and Pepitas with Caesar Dressing. (For Peanut/Tree Nut, Sesame, Shellfish and Soy Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Chef's Special (Scallop Risotto),Allergy-Friendly Entrées,Lunch; Dinner,"Butternut Squash Risotto, Pan-seared Scallops, Crispy Bacon, Fried Sage and Beurre Blanc Foam. (For Fish, Sesame, Soy and Peanut/Tree Nut Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Plant-based House Salad,Allergy-Friendly Plant-Based Offerings,Lunch; Dinner,"Romaine Lettuce, Green Olives, Sourdough Croutons, Olives, Pepita Seeds and House-made Caesar Dressing. (For Egg, Fish/Shellfish, Milk, Peanut/Tree Nut Sesame and Soy Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Fall Pasta,Allergy-Friendly Plant-Based Offerings,Lunch; Dinner,"Rigatoni with Sausage Crumble, Roasted Butternut Squash, Roasted Maitake Mushrooms, Cherry Tomatoes, Roasted Kale, Pumpkin Cream Sauce and Pepitas. (For Egg, Fish/Shellfish, Milk and Peanut/Tree Nut Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Chocolate Torte,Allergy-Friendly Dessert,Lunch; Dinner,"Chocolate Sauce, Powdered Sugar, Crème Fraîche, Pistachio Crumble and Finishing Salt. (For Fish/Shellfish, Peanut, Sesame and Soy Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Slider,Allergy-Friendly Kids' Meal,Lunch; Dinner,"Angus Beef and Cheese on a Toasted Bun. Meals include Seasonal Fruit, Vanilla Yogurt and choice of small DASANI® Water or small Lowfat Milk. (For Fish/Shellfish, Peanut/Tree Nut and Sesame Allergies)",,disney-california-adventure/magic-key-terrace
+2026-11-28,Magic Key Terrace - Magic Key Holder Dining,Disney California Adventure,Pasta,Allergy-Friendly Kids' Meal,Lunch; Dinner,"with Marinara & Meatballs. Meals include Seasonal Fruit, Vanilla Yogurt and choice of small DASANI® Water or small Lowfat Milk. Meets Disney Nutrition Guidelines for Complete Meals without substitutions. (For Fish/Shellfish, Peanut/Tree Nut, and Sesame Allergies)",,disney-california-adventure/magic-key-terrace
 2026-11-28,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Tiramisu Velvet Latte - Grande,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,8.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-28,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Iced Sugar Cookie Matcha,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,8.99,disney-california-adventure/fiddler-fifer-and-practical-cafe
 2026-11-28,"Fiddler, Fifer & Practical Cafe",Disney California Adventure,Snowy Apple Drink,"Fiddler, Fifer & Practical Bakery Cafe Seasonal Offerings",Breakfast; Lunch And Dinner,,7.29,disney-california-adventure/fiddler-fifer-and-practical-cafe
@@ -1424,6 +1486,12 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Regular Cone or Regular Cup - Single Scoop,By The Scoop - Ice Cream,Snack,single scoop in a regular Sugar Cone or regular cup,7.49,disney-california-adventure/clarabelles-hand-scooped-ice-cream
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Regular Cone or Regular Cup - Double Scoop,By The Scoop - Ice Cream,Snack,double scoop in a regular Sugar Cone or regular cup,8.49,disney-california-adventure/clarabelles-hand-scooped-ice-cream
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Regular Cone or Regular Cup - Triple Scoop,By The Scoop - Ice Cream,Snack,Triple scoop in a Cup or Cone,9.49,disney-california-adventure/clarabelles-hand-scooped-ice-cream
+2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Vanilla,Ice Cream Flavors,Snack,,,disney-california-adventure/clarabelles-hand-scooped-ice-cream
+2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Chocolate,Ice Cream Flavors,Snack,,,disney-california-adventure/clarabelles-hand-scooped-ice-cream
+2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Strawberry,Ice Cream Flavors,Snack,,,disney-california-adventure/clarabelles-hand-scooped-ice-cream
+2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Mint Chocolate Chip,Ice Cream Flavors,Snack,,,disney-california-adventure/clarabelles-hand-scooped-ice-cream
+2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Cookies and Cream,Ice Cream Flavors,Snack,,,disney-california-adventure/clarabelles-hand-scooped-ice-cream
+2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Vanilla (No Sugar Added),Ice Cream Flavors,Snack,,,disney-california-adventure/clarabelles-hand-scooped-ice-cream
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Hand-dipped Ice Cream Bars,Desserts,Snack,Vanilla Bean Ice Cream Bar with choice of Chocolate Coating and Topping,7.99,disney-california-adventure/clarabelles-hand-scooped-ice-cream
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Ice Cream Float,Desserts,Snack,Two Scoops of Vanilla Ice Cream with choice of Beverage,8.69,disney-california-adventure/clarabelles-hand-scooped-ice-cream
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,The Oswald Sundae,Sundaes,Snack,"scoops of Vanilla and Chocolate Ice Cream served in a Waffle Cup topped with Whipped Cream, Hot Fudge, Chocolate Morsels, Cherries, and Chocolate-dipped Frozen Bananas",10.79,disney-california-adventure/clarabelles-hand-scooped-ice-cream
@@ -1438,10 +1506,12 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Assorted Fountain Beverages - Regular,Beverages,Snack,assorted Coca-Cola® offerings,4.99,disney-california-adventure/clarabelles-hand-scooped-ice-cream
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,Assorted Fountain Beverages - Large,Beverages,Snack,assorted Coca-Cola® offerings,5.69,disney-california-adventure/clarabelles-hand-scooped-ice-cream
 2026-11-28,Clarabelle's Hand-Scooped Ice Cream,Disney California Adventure,DASANI® Bottled Water,Beverages,Snack,,4.79,disney-california-adventure/clarabelles-hand-scooped-ice-cream
+2026-11-28,Mortimers Market,Disney California Adventure,Assorted Whole Fruits,Snacks,Snack,,,disney-california-adventure/mortimers-market
 2026-11-28,Mortimers Market,Disney California Adventure,Pickles,Snacks,Snack,,4.99,disney-california-adventure/mortimers-market
 2026-11-28,Mortimers Market,Disney California Adventure,Assorted Chips,Snacks,Snack,,4.29,disney-california-adventure/mortimers-market
 2026-11-28,Mortimers Market,Disney California Adventure,Mini Babybel® snack cheese - 3-pack,Snacks,Snack,,3.49,disney-california-adventure/mortimers-market
 2026-11-28,Mortimers Market,Disney California Adventure,Cuties® Mandarin 3-pack,Snacks,Snack,,5.99,disney-california-adventure/mortimers-market
+2026-11-28,Mortimers Market,Disney California Adventure,Assorted Bottled Beverages,Beverages,Snack,,,disney-california-adventure/mortimers-market
 2026-11-28,Mortimers Market,Disney California Adventure,Sprite® Zero Sugar,Beverages,Snack,,5.19,disney-california-adventure/mortimers-market
 2026-11-28,Mortimers Market,Disney California Adventure,smartwater®,Beverages,Snack,,5.79,disney-california-adventure/mortimers-market
 2026-11-28,Mortimers Market,Disney California Adventure,Topo Chico®,Beverages,Snack,,5.29,disney-california-adventure/mortimers-market
@@ -1608,7 +1678,13 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Wine Country Trattoria,Disney California Adventure,Pasta with Marinara and Meatballs,Kids' Disney Check Meals Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water. Meets Disney Nutrition Guidelines for Complete Meals without Substitutions,12.00,disney-california-adventure/wine-country-trattoria
 2026-11-28,Wine Country Trattoria,Disney California Adventure,Salmon,Kids' Disney Check Meals Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water. Meets Disney Nutrition Guidelines for Complete Meals without Substitutions,14.00,disney-california-adventure/wine-country-trattoria
 2026-11-28,Wine Country Trattoria,Disney California Adventure,Cheese Pizza,Kids' Create-Your-Own Entrées (choose one),Lunch; Dinner,served with choice of two (2) Selections and choice of Small Lowfat Milk or Small DASANI® Water,12.00,disney-california-adventure/wine-country-trattoria
+2026-11-28,Wine Country Trattoria,Disney California Adventure,Fresh Fruit,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disney-california-adventure/wine-country-trattoria
+2026-11-28,Wine Country Trattoria,Disney California Adventure,Broccoli,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,,,disney-california-adventure/wine-country-trattoria
+2026-11-28,Wine Country Trattoria,Disney California Adventure,Yogurt,Kids' Create-Your-Own Selections (choose two),Lunch; Dinner,Vanilla Yogurt,,disney-california-adventure/wine-country-trattoria
 2026-11-28,Wine Country Trattoria,Disney California Adventure,Cookie Butter Tiramisù,Dessert,Lunch; Dinner,Layers of Coffee-soaked Ladyfingers and Cookie Butter Mousse,12.00,disney-california-adventure/wine-country-trattoria
+2026-11-28,Wine Country Trattoria,Disney California Adventure,Freshly Brewed Joffrey's Coffee™,Non-Alcoholic Beverages,Lunch; Dinner,,,disney-california-adventure/wine-country-trattoria
+2026-11-28,Wine Country Trattoria,Disney California Adventure,Assorted Twinings of London® Hot Teas,Non-Alcoholic Beverages,Lunch; Dinner,,,disney-california-adventure/wine-country-trattoria
+2026-11-28,Wine Country Trattoria,Disney California Adventure,Fountain Beverages,Non-Alcoholic Beverages,Lunch; Dinner,"Coca-Cola®, Diet Coke®, Coca-Cola® Zero Sugar, Sprite®, Fanta® Orange, Minute Maid® Zero Sugar Lemonade and Iced Tea",,disney-california-adventure/wine-country-trattoria
 2026-11-28,Wine Country Trattoria,Disney California Adventure,St. Agrestis Phony Negroni,Cocktails,Lunch; Dinner,Zero Proof Cocktail,14.25,disney-california-adventure/wine-country-trattoria
 2026-11-28,Wine Country Trattoria,Disney California Adventure,Salted Mango Bourbon Sour,Cocktails,Lunch; Dinner,"Bourbon, Mango Purée, Egg White, Lemon Juice and Agave Syrup",17.25,disney-california-adventure/wine-country-trattoria
 2026-11-28,Wine Country Trattoria,Disney California Adventure,Boulevardier,Cocktails,Lunch; Dinner,"Campari, Sweet Vermouth and Old Forester Bourbon",20.00,disney-california-adventure/wine-country-trattoria
@@ -1648,6 +1724,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Wine Country Trattoria,Disney California Adventure,San Michele a Torri Chianti Classico,Red Wine,Lunch; Dinner,Italy,67.00,disney-california-adventure/wine-country-trattoria
 2026-11-28,Wine Country Trattoria,Disney California Adventure,"Campolieti Valpolicella Ripasso, Venetia, Italy",Red Wine,Lunch; Dinner,,56.00,disney-california-adventure/wine-country-trattoria
 2026-11-28,Wine Country Trattoria,Disney California Adventure,"Saldo Zinfandel, Northern California",Red Wine,Lunch; Dinner,,70.00,disney-california-adventure/wine-country-trattoria
+2026-11-28,Sonoma Terrace,Disney California Adventure,Limited offerings may be available during this Special Ticketed Event. Please visit location for current offerings.,Oogie Boogie Bash Offering [Available during Event Only],Special,,,disney-california-adventure/sonoma-terrace
 2026-11-28,Sonoma Terrace,Disney California Adventure,Bavarian Pretzel,Favorites,Special; Lounge,,8.25,disney-california-adventure/sonoma-terrace
 2026-11-28,Sonoma Terrace,Disney California Adventure,Cheese Cup,Favorites,Special; Lounge,,1.50,disney-california-adventure/sonoma-terrace
 2026-11-28,Sonoma Terrace,Disney California Adventure,Michelada with Calidad Cerveza,Cocktails,Special; Lounge,,19.75,disney-california-adventure/sonoma-terrace
@@ -1736,7 +1813,6 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Aunt Cass Café,Disney California Adventure,Snowman Sourdough Bread,Plant-Based,Lunch And Dinner,Boudin® Sourdough Bread,12.99,disney-california-adventure/aunt-cass-cafe
 2026-11-28,Aunt Cass Café,Disney California Adventure,Christmas Tree Pull-apart Sourdough Bread,Plant-Based,Lunch And Dinner,Boudin® Sourdough Pull-apart Bread,12.99,disney-california-adventure/aunt-cass-cafe
 2026-11-28,Aunt Cass Café,Disney California Adventure,Candy Cane Sourdough Bread,Plant-Based,Lunch And Dinner,Boudin® Sourdough Bread,12.99,disney-california-adventure/aunt-cass-cafe
-2026-11-28,Aunt Cass Café,Disney California Adventure,Turkey Sourdough Bread,Plant-Based,Lunch And Dinner,,17.99,disney-california-adventure/aunt-cass-cafe
 2026-11-28,Aunt Cass Café,Disney California Adventure,Ginger-Sesame Tofu Salad,Plant-Based,Lunch And Dinner,"Marinated Tofu, Romaine Lettuce and Ginger-Sesame Dressing",14.79,disney-california-adventure/aunt-cass-cafe
 2026-11-28,Aunt Cass Café,Disney California Adventure,Dutch Crunch Baguette,Plant-Based,Lunch And Dinner,,7.99,disney-california-adventure/aunt-cass-cafe
 2026-11-28,Aunt Cass Café,Disney California Adventure,Baymax Bread,Plant-Based,Lunch And Dinner,Freshly Baked Sourdough,14.99,disney-california-adventure/aunt-cass-cafe
@@ -1965,6 +2041,26 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Yuletide Cheers,Trader Sam's Seasonal Alcoholic Beverages,Breakfast; Lounge,"Zaya Rum, Avissi Prosecco Sparkling Wine, Pomegranate & Cranberry Juices, Cinnamon Syrup",20.00,disneyland-hotel/trader-sams
 2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Peppermint Barks,Trader Sam's Seasonal Alcoholic Beverages,Breakfast; Lounge,"El Dorado 8 Rum, Rumpleminz Peppermint Liqueur, Falernum, Cream of Coconut, Pomegranate Juice, Lemon Juice",19.00,disneyland-hotel/trader-sams
 2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Mele KalikiMocha,Trader Sam's Seasonal Alcoholic Beverages,Breakfast; Lounge,"Kahlúa Coffee Liqueur, Cream of Coconut, Orgeat, Cold Brew",18.00,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Uh-Oa!,Specialty Drinks,Breakfast; Lounge,"Myers’s Dark Rum, Bacardi Superior Rum, Sam’s Gorilla Grog, P.O.G., Grapefruit, Cinnamon",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Krakatoa Punch,Specialty Drinks,Breakfast; Lounge,"Sailor Jerry Spiced Rum, Flor de Caña 7 Year Rum, Sam’s Gorilla Grog, Orgeat, Hibiscus",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,HippopatoMai-Tai,Specialty Drinks,Breakfast; Lounge,"Planteray Original Dark Rum, Flor de Caña Extra Seco Rum, Orgeat, Orange Curaçao",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Hala Kahiki,Specialty Drinks,Breakfast; Lounge,"Planteray Pineapple Rum, Pineapple Juice, Honey, Fresh Lemon, Peychaud’s Bitters",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Angolada,Specialty Drinks,Breakfast; Lounge,"Smith & Cross Navy Strength Rum, Cream of Coconut, Tropical Juice Blend, Angostura Bitters",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Mosquito Mojito,Specialty Drinks,Breakfast; Lounge,"Bacardi Dragonberry Rum, Falernum, Mint, Fresh Lime",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Zombie,Specialty Drinks,Breakfast; Lounge,"Hamilton Demerara 151 Rum, Bacardi 8 Rum, Mount Gay Eclipse Rum, Sam’s Gorilla Grog, Grapefruit, Cinnamon",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Tiki Tiki Tiki Tiki Tiki Rum,Specialty Drinks,Breakfast; Lounge,"Flor de Caña 7 Year Rum, Crème of Coconut, Pineapple Juice, Cinnamon",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Tangaroa Cooler,Specialty Drinks,Breakfast; Lounge,"Hamilton Pot Still Gold Rum, Tamarindo Syrup, Grapefruit, Tropical Juice Blend",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Tiki La Casita,Specialty Drinks,Breakfast; Lounge,"Herradura Reposado Tequila, Guava, Orange Creole Shrub, Tropical Juice Blend",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Safari Swizzle,Specialty Drinks,Breakfast; Lounge,"Hamilton Demerara 151 Rum, Mint, Fresh Lime, Angostura Bitters",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Shipwreck on the Rocks,Specialty Drinks,Breakfast; Lounge,"Maker’s Mark Bourbon, Mint, Fresh Lemon",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Piranha Pool,Specialty Drinks,Breakfast; Lounge,"Strawberry Vodka, Crème of Coconut, Strawberry Purée, Pineapple Juice",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Safe Travels,Specialty Drinks,Breakfast; Lounge,"Casamigos Reposado Tequila, Del Maguey Vida Mezcal, Falernum, Grapefruit, Fresh Lime",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Temple of the Forbidden Rye,Specialty Drinks,Breakfast; Lounge,"Bulleit Rye Whiskey, Allspice Liqueur, Ginger, Tropical Juices Blend",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Notes of Adventure,Specialty Drinks,Breakfast; Lounge,"Tanqueray Gin, Orgeat, Passion Fruit, Tropical Juice Blend",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Nile River Sunset,Specialty Drinks,Breakfast; Lounge,"Golden Eagle Vodka, Apricot Liqueur, Amaro Montenegro, Honey, Fresh Lemon",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Schweitzer Falls,Sam's No-Booze Brews,Breakfast; Lounge,"Sam’s Gorilla Grog, Sprite®",,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Polynesian Punch,Sam's No-Booze Brews,Breakfast; Lounge,Sam's Gorilla Grog and Hibiscus Grenadine,,disneyland-hotel/trader-sams
+2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Skipper Sipper,Sam's No-Booze Brews,Breakfast; Lounge,"Sam’s Gorilla Grog, Agave, Falernum, Mint, Fresh Lime, Splash of Soda Water",,disneyland-hotel/trader-sams
 2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Modelo Especial,Draft Beer,Breakfast; Lounge,Mexico (ABV 4.4%),14.25,disneyland-hotel/trader-sams
 2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,Kona Longboard Island Lager,Draft Beer,Breakfast; Lounge,"Kailua-Kona, HI (ABV 5.5%)",14.25,disneyland-hotel/trader-sams
 2026-11-28,Trader Sam's Enchanted Tiki Bar,Disneyland Hotel,"Left Coast Una Mas, Amber Ale",Draft Beer,Breakfast; Lounge,"San Clemente, CA (ABV 5.8%)",14.25,disneyland-hotel/trader-sams
@@ -2104,6 +2200,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Palm Breeze Bar,Disneyland Hotel,Jumbo Lump Crab Roll,Sandwiches,Lunch; Dinner,"Tarragon & Lemon Aïoli, Fresh Dill, Toasted Brioche, served with French Fries, House Potato Chips, or Fresh Fruit",29.00,disneyland-hotel/palm-breeze-bar
 2026-11-28,Palm Breeze Bar,Disneyland Hotel,Charcuterie Pizza,Artisan Personal Pizzas,Lunch; Dinner,"Artisan Cured Prosciutto, Pepperoni, Sausage, Sun-dried Tomatoes",27.00,disneyland-hotel/palm-breeze-bar
 2026-11-28,Palm Breeze Bar,Disneyland Hotel,Margherita Pizza,Artisan Personal Pizzas,Lunch; Dinner,"Thai Basil, Stracciatella Mozzarella",24.00,disneyland-hotel/palm-breeze-bar
+2026-11-28,Palm Breeze Bar,Disneyland Hotel,Seasonal Pizza,Artisan Personal Pizzas,Lunch; Dinner,Please see your server for details,,disneyland-hotel/palm-breeze-bar
 2026-11-28,Palm Breeze Bar,Disneyland Hotel,Gochugaru-spiced Jumbo Shrimp,Entrées,Lunch; Dinner,"Charred Lemon, Garlic Rice, Baby Bok Choy, Stir-fried Vegetables",29.00,disneyland-hotel/palm-breeze-bar
 2026-11-28,Palm Breeze Bar,Disneyland Hotel,Chicken Tenders,Entrées,Lunch; Dinner,Chicken Tenders and French Fries,22.00,disneyland-hotel/palm-breeze-bar
 2026-11-28,Palm Breeze Bar,Disneyland Hotel,Grilled Prime Flat Iron Steak*,Entrées,Lunch; Dinner,"Charred Broccolini, Parmesan Snow, Lemon, Compound Herb Butter",42.00,disneyland-hotel/palm-breeze-bar
@@ -2190,6 +2287,8 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,GCH Craftsman Bar,Grand Californian Hotel,Premium Sparkling Mineral Water - Large,Non-Alcoholic Specialty Beverages,Breakfast,,10.00,grand-californian-hotel/craftsman-bar
 2026-11-28,GCH Craftsman Bar,Grand Californian Hotel,Strawberry-Basil Smash,Non-Alcoholic Specialty Beverages,Breakfast,"Strawberry, Basil, Lime, Sparkling Water, garnished with Strawberry Fan and Basil Leaf",10.75,grand-californian-hotel/craftsman-bar
 2026-11-28,GCH Craftsman Bar,Grand Californian Hotel,Grapefruit Fizz,Non-Alcoholic Specialty Beverages,Breakfast,"Grapefruit Juice, Sparkling Water, Simple Syrup, Orange Juice, garnished with half Grapefruit Wheel and Thyme Sprig",10.75,grand-californian-hotel/craftsman-bar
+2026-11-28,GCH Craftsman Bar,Grand Californian Hotel,Crafted Bloody Mary,Rise & Shine Cocktails,Breakfast,"Bloody Mary Mix with Celery, Olives, Limes",,grand-californian-hotel/craftsman-bar
+2026-11-28,GCH Craftsman Bar,Grand Californian Hotel,Crafted Bloody Maria,Rise & Shine Cocktails,Breakfast,"Bloody Mary Mix with Celery, Olives, Limes",,grand-californian-hotel/craftsman-bar
 2026-11-28,GCH Craftsman Bar,Grand Californian Hotel,Avissi Prosecco Mimosa,Rise & Shine Cocktails,Breakfast,"with choice of Tangerine, Mango or Raspberry Juice",76.00,grand-californian-hotel/craftsman-bar
 2026-11-28,GCH Craftsman Bar,Grand Californian Hotel,La Marca Luminore Prosecco Mimosa,Rise & Shine Cocktails,Breakfast,"with choice of Tangerine, Mango or Raspberry Juice",103.00,grand-californian-hotel/craftsman-bar
 2026-11-28,GCH Craftsman Bar,Grand Californian Hotel,Schramsberg Blanc de Blancs Mimosa,Rise & Shine Cocktails,Breakfast,"with choice of Tangerine, Mango or Raspberry Juice",149.00,grand-californian-hotel/craftsman-bar
@@ -2457,6 +2556,47 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,Hearthstone Lounge,Grand Californian Hotel,Clase Azul Plata,Specialty Spirits,Lunch; Dinner,,54.00,grand-californian-hotel/hearthstone-lounge
 2026-11-28,Hearthstone Lounge,Grand Californian Hotel,Clase Azul Reposado,Specialty Spirits,Lunch; Dinner,,58.00,grand-californian-hotel/hearthstone-lounge
 2026-11-28,Hearthstone Lounge,Grand Californian Hotel,Clase Azul Añejo,Specialty Spirits,Lunch; Dinner,,100.00,grand-californian-hotel/hearthstone-lounge
+2026-11-28,Napa Rose,Grand Californian Hotel,Our Chef’s Tasting Menu,Napa Rose Main Dining Room & Outdoor Terrace - Chef's Tasting Menu,Special,"Our chefs have assembled a seasonal prix fixe menu that celebrates the legacy of wine country cuisine enhanced by the best of global fare. This thoughtfully crafted tasting menu features multiple options per course, showcasing epicurean artistry with the highest-quality seasonal ingredients. Come indulge your culinary curiosity with an unforgettable dining experience.",188.00,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Outstanding Wine Pairings,Napa Rose Main Dining Room & Outdoor Terrace - Chef's Tasting Menu,Special,"The exquisite Napa Rose wine collection features over 1,500 labels from across the globe. This rare wine library is carefully curated and ever-changing – with exceptional choices that will delight every palate. Choose from three different wine pairing tiers and let our sommeliers curate a wine experience that perfectly complements your menu choice.",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Amuse-Bouche,Chef's Tasting Menu - Beginning ,Special,Seasonal Gift from Chef,,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Diver Scallop,Chef's Tasting Menu - First Course (Choose One),Special,"Red Grapes, Applewood Smoked Bacon Emulsion",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Citrus-Cured Wild Cobia,Chef's Tasting Menu - First Course (Choose One),Special,Dragon Fruit Leche de Tigre,,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Wild Mushroom Custard,Chef's Tasting Menu - Second Course (Choose One),Special,"Parmesan Cloud, Shaved Truffles",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Artisan Tagliatelle Pasta,Chef's Tasting Menu - Second Course (Choose One),Special,"Rabbit Meatballs, Parmigiano Reggiano",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Orvia Duck Breast,Chef's Tasting Menu - Entrées (Choose One) ,Special,"Brown Butter Sweet Potato, Charred Orange",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Sustainable Fish of the Day,Chef's Tasting Menu - Entrées (Choose One) ,Special,"Charred Cabbage, Cashews, Mint, Pomegranate",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Mishima Wagyu Ribeye,Chef's Tasting Menu - Entrées (Choose One) ,Special,"Cauliflower Hummus, Chermoula",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Heirloom Pumpkin,Chef's Tasting Menu - Desserts (Choose One) ,Special,"Fromage Blanc Crémeux, Molasses Crumble",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Pecan Noir,Chef's Tasting Menu - Desserts (Choose One) ,Special,"Caramelized Biscuit Praline, Guanaja Chocolate Ganache",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,A Parting Nibble,Chef's Tasting Menu - Lastly ,Special,,,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Diver Scallop,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Red Grapes, Applewood Smoked Bacon Emulsion",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Autumn Pear & Goat Cheese Tart,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Tangerine, Local Honey",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Beef Carpaccio,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"“Lomo Saltado”, Aji Amarillo, Crispy Casava",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Olive Oil-Poached Red Snapper,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Potato Confit, Golden Pepper Romesco",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Truffle Potato Gnocchi,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Delicata Squash, Wild Foraged Mushrooms",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Orvia Duck “Crisp Cannolo”,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Citrus-Mascarpone, Fig, Apricot",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Sustainable Fish of the Day,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Charred Cabbage, Cashews, Mint, Pomegranate",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Creekstone Farms Filet Mignon,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Braised Short Rib, Root Vegetable Velouté",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Oak-Roasted Poblano “Chili Relleno”,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Filled with Mozzarella, Lentils",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Saddle of Colorado Lamb,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Butternut Squash, Medjool Date Mole",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,La Belle Farm Heritage Chicken,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Koji-Roasted Carrots, Pinot Noir Jus",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Roasted Whole Mediterranean Sea Bream,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,Green Thai Curry,,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Apple Orchard,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Brown Butter Croissant, Cold-Smoked Vanilla Ice Cream",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Heirloom Pumpkin,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,"Fromage Blanc Crémeux, Molasses Crumble",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Valrhona Chocolate Bar,Napa Rose Main Dining Room & Outdoor Terrace - À la carte ,Special,Hazelnut Praline,,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,A Personalized Culinary Delight,Napa Rose Chef's Counter,Special,"The Chef’s Counter will offer up to 18 Guests the opportunity to sit and dine in direct view of the dynamic exhibition kitchen, where the Napa Rose chefs personalize each course of your meal, based on seasonality and creativity.",250.00,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,À la carte offerings,Napa Rose Bar & Lounge,Special,"The Bar and Lounge inside Napa Rose offers walk-in availability and á la carte offerings for diners looking to enjoy crafted cocktails, incredible wine selections, and luxurious small bites. With a menu that will rotate regularly based on seasonality, the Napa Rose Bar and Lounge offers a cozy, intimate space to enjoy great conversation and delectable dining.",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Prime Creekstone Beef Carpaccio,Napa Rose Bar & Lounge,Special,"Aji Amarillo, Pickled Onions, Warm Cassava",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Hawaiian Ahi Tuna Tataki,Napa Rose Bar & Lounge,Special,"Avocado Velvet, Cashew-Chili Crunch, Yuzu Ponzu",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Baked Salt Spring Mussels,Napa Rose Bar & Lounge,Special,"Nduja Butter, Breadcrumbs, Finger Lime",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Yukon Potato Royale,Napa Rose Bar & Lounge,Special,"Scallop and Lobster Mousse, Citrus Creme Fraiche",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Laughing Tiger,Napa Rose Bar & Lounge,Special,"Tamari-Glazed Prime Beef, crispy Shrimp Fritter, Green Papaya Salad",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Berkel-Sliced Charcuterie,Napa Rose Bar & Lounge,Special,"Cinco Jotas Jamón Ibérico, Capocollo, Duck Pâté, Idiazabal Fondue",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Truffled Orvia Duck Melt,Napa Rose Bar & Lounge,Special,"Onion Confit, Apple, Comté Cheese, Duck Fat Roasted Potatoes",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Ravioles du Dauphiné,Napa Rose Bar & Lounge,Special,"Fairytale Pumpkin, Pine Nut, Pomegranate, Foraged Mushrooms",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Roasted Heirloom Half Chicken,Napa Rose Bar & Lounge,Special,"Spanish Red Fresno Chili Mojo, Blood Orange",,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,Warm Rosemary Focaccia,Napa Rose Bar & Lounge,Special,Sun-Dried Tomato Pistou,,grand-californian-hotel/napa-rose
+2026-11-28,Napa Rose,Grand Californian Hotel,USDA Prime 32oz Tomahawk Ribeye,Napa Rose Bar & Lounge,Special,,,grand-californian-hotel/napa-rose
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Breakfast Salad,Entrées,Breakfast,"Mixed Greens, Seasonal Berries, Shallots, Cucumbers, Granola, Mint, Tomatoes, Feta and a Hard-boiled Egg, with Lemon Poppy Vinaigrette",15.00,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Smoked Salmon Bagel Sandwich,Entrées,Breakfast,"with Caper Cream Cheese, Arugula, Roasted Tomato and Red Onions on a Toasted Plain Bagel, served with Seasonal Fruit",20.00,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Breakfast Sandwich*,Entrées,Breakfast,"Scrambled Eggs, Sausage Patty, Cheddar, Smoked Paprika Aïoli and Avocado on a Brioche Bun, served with Breakfast Potatoes",19.00,grand-californian-hotel/white-water-snacks
@@ -2465,6 +2605,7 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Breakfast Burrito*,Entrées,Breakfast,"Eggs, Bacon, Potato, Pico de Gallo and Shredded Cheese in a Flour Tortilla with Salsa Roja and Sour Cream",16.00,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Avocado Toast on Sourdough,Entrées,Breakfast,"Grilled Sourdough, Avocado, Poached Eggs, Ricotta, Prosciutto, Orange, Chives, Crispy Garlic, Honey, Basil and Lemon, served with Breakfast Potatoes",18.00,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Brioche French Toast,Entrées,Breakfast,"Seasonal Fruit Ambrosia, Peanut Butter Caramel, Powdered Sugar and Shaved Coconut",17.00,grand-californian-hotel/white-water-snacks
+2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Belgian Waffle,Entrées,Breakfast,Inquire with Cashier,,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,POWER Pack,Kids' Disney Check Meals,Breakfast; Lunch And Dinner,"A Cuties® Mandarin Orange, Applesauce, Carrots, Whole-Grain “Fish” Crackers and choice of small DASANI® Water or small Lowfat Milk. Meets Disney Nutrition Guidelines for Complete Meals without substitutions",7.00,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Kid's Breakfast Plate*,Kids' Disney Check Meals,Breakfast,"Scrambled Eggs, Turkey Bacon and Breakfast Potatoes, with choice of Seasonal Fruit or Lowfat Yogurt and small DASANI® Water or small Lowfat Milk. Meets Disney Nutrition Guidelines for Complete Meals without substitutions",10.00,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Kid’s Mickey-shaped Waffle,Kids' Breakfast,Breakfast,dusted with Powdered Sugar and served with Syrup and choice of small Lowfat Milk or small Dasani® Water,10.00,grand-californian-hotel/white-water-snacks
@@ -2492,3 +2633,31 @@ Pulled,Restaurant,Park,Item,Category,MealPeriods,Description,Price,Source
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Hamburger,Kids' Disney Check Meals,Lunch And Dinner,"served with a Cuties® Mandarin Orange and Applesauce, with choice of small DASANI® water or small lowfat Milk. Meets Disney Nutrition Guidelines for Complete Meals without substitutions",12.00,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Chicken Tenders,Kids' Meals,Lunch And Dinner,served with Seasonal Fruit or French Fries and a choice of small DASANI® Water or small Lowfat Milk,12.00,grand-californian-hotel/white-water-snacks
 2026-11-28,GCH Craftsman Grill,Grand Californian Hotel,Parmesan-crusted Grilled Cheese Sandwich,Kids' Meals,Lunch And Dinner,served with Seasonal Fruit or French Fries and a choice of small DASANI® Water or small Lowfat Milk,12.00,grand-californian-hotel/white-water-snacks
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,16 oz. Coffee,Build Your Own Brew,Lounge,"Choice of Regular, Decaf or Cold Brew",,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,20 oz. Coffee,Build Your Own Brew,Lounge,"Choice of Regular, Decaf or Cold Brew",,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Creamer,Build Your Own Brew,Lounge,"1/2 & 1/2, Milk, Cream",,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Creamer Extras,Build Your Own Brew,Lounge,"Almond, Oat or Coffee Ice Cubes",,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Flavored Syrups,Build Your Own Brew,Lounge,Ask about our Seasonal Inspiration,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Topping Extras,Build Your Own Brew,Lounge,"Whipped Cream, Chocolate Sprinkles or Edible Rainbow Glitter",,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Espresso - Single,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Espresso - Double,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Machiatto,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Espresso con panna,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Flat White,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Café Latte,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Americano,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Mocha,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Cappuccino,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Seasonal Latte,Espresso Bar,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,London Fog,Tea Time,Lounge,"Earl Grey, Steamed Milk, and Vanilla Syrup",,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Matcha Latte,Tea Time,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Avocado Toast,Heat & Run,Lounge,"smashed Avocado, sliced Hard Boiled Egg, Everything but the Bagel Seasoning, Levain Bread",,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Mini Frittata,Heat & Run,Lounge,Veggies & Egg Whites | Meat Lovers | Cheese & Eggs,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Pizza Bagel,Heat & Run,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Assorted Sweets,Bakery Case,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Breakfast Pastries,Bakery Case,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Yogurts,Prepared Items,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Fruit Cups,Prepared Items,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Sandwiches,Prepared Items,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Grab & Go Boxes,Prepared Items,Lounge,,,pixar-place-hotel/sketch-pad-cafe
+2026-11-28,The Sketch Pad Café,Pixar Place Hotel,Packaged Snacks,Prepared Items,Lounge,,,pixar-place-hotel/sketch-pad-cafe
