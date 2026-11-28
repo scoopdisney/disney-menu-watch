@@ -1,7 +1,7 @@
 // Disneyland Resort venue list for the menu price watch.
 // 76 venues, verified live against the dinemenu API 2026-09-14.
 // alfresco-tasting-terrace deliberately absent (Magic Key Terrace double-count).
-// napa-rose-lounge left in so a 404 is reported instead of a silent drop.
+// napa-rose covers the Main Dining Room, Chef's Counter and Bar & Lounge (napa-rose-lounge 404s since Disney merged it).
 
 const DLP = ['Disneyland Park', 'disneyland'];
 const DCA = ['Disney California Adventure', 'disney-california-adventure'];
@@ -83,7 +83,7 @@ export const VENUES = [
   ['palm-breeze-bar', ...DLH],
   ['craftsman-bar', ...GCH],
   ['hearthstone-lounge', ...GCH],
-  ['napa-rose-lounge', ...GCH],
+  ['napa-rose', ...GCH],
   ['white-water-snacks', ...GCH],
   ['sketch-pad-cafe', ...PPH],
 ];
